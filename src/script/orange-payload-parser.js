@@ -119,6 +119,7 @@ function decoder(receivedString) {
 		resObj.payload.decode.status = "fail";
 		resObj.payload.decode.exception = "Result is empty!";
 	}
+	console.log(JSON.stringify(resObj));
 	return resObj;
 }
  
